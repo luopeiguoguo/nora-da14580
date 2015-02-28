@@ -1,0 +1,106 @@
+#############################################################################################
+#
+#  Dialog Semiconductor
+#  Het Zuiderkruis 53
+#  5215 MV 's-Hertogenbosch
+#  The Netherlands
+#
+#  Project: Bluetooth Low Energy (BTLE)
+#  SOFTWARE PLATFORM
+#
+#  Please contact bluetooth.support@diasemi.com for questions and support
+#
+##############################################################################################
+
+#Change log file for BTLE_580 distribution
+#
+-------------------------------------------------------------------------
+#Format of the log entries:
+#
+#Date: DD/MM/YYYY
+#Committed by: user-name
+#Type: FEATURE or MAJOR_RESTRUCTURING or BUG_FIX or TUNING or RELEASE
+#ver: the tagged version where the corresponding changes can be found
+#
+#Files: list of files committed, with full path
+#       (e.g. dk_apps/full_emb.uvproj), each one in separate line.
+#
+#Comment: A brief comment regarding the changes that were committed.
+#
+#---------------------------------------------------------------------------
+===========================================================================
+Date: 10/09/2014
+Committed by: Konstantinos Nakos
+Type: FEATURE
+ver: 3.120.1.5
+#
+#Files
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/app_ancc_proj.c
+Comment:
+
+    Removed references to proxr profile.
+
+
+===========================================================================
+Date: 09/09/2014
+Committed by: Konstantinos Nakos
+Type: FEATURE
+ver: 3.120.1.4
+#
+#Files
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_scatter_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_stack_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/fh_ancc.uvopt
+#	dk_apps/keil_projects/ancc/ancc_fh/fh_ancc_581.uvopt
+#	dk_apps/keil_projects/ancc/ancc_fh/fh_ancc_581.uvproj
+Comment:
+
+    Added ancc_fh_581 project file and option files, updated da14580_stack_config.h and da14580_scatter_config.h accordingly.
+
+
+===========================================================================
+Date: 27/08/2014
+Committed by: Konstantinos Nakos
+Type: FEATURE
+ver: 3.120.1.3
+#
+#Files
+#	dk_apps/src/modules/app/api/app.h
+#	dk_apps/src/modules/app/api/app_sec.h
+#	dk_apps/src/modules/app/api/app_sec_task.h
+#	dk_apps/src/modules/app/api/app_task.h
+#	dk_apps/src/modules/app/src/app.c
+#	dk_apps/src/modules/app/src/app_sec.c
+#	dk_apps/src/modules/app/src/app_sec_task.c
+#	dk_apps/src/modules/app/src/app_task.c
+#	dk_apps/src/modules/app/src/app_utils/app_console/app_console.c
+#	dk_apps/src/modules/app/src/app_utils/app_console/app_console.h
+Comment:
+
+    Added missing files under dk_apps/src/modules/app/.
+
+
+===========================================================================
+Date: 27/08/2014
+Committed by: Konstantinos Nakos
+Type: FEATURE
+ver: 3.120.1.2
+#
+#Files
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_scatter_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/da14580_stack_config.h
+#	dk_apps/keil_projects/ancc/ancc_fh/fh_ancc.uvproj
+#	dk_apps/src/modules/app/api/app_api.h
+#	dk_apps/src/modules/app/api/app_task_handlers.h
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/app_ancc_proj.c
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/app_ancc_proj.h
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/system/app_sleep.h
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/system/periph_setup.c
+#	dk_apps/src/modules/app/src/app_project/ancc_fh/system/periph_setup.h
+Comment:
+
+    Initial commit.
+
+

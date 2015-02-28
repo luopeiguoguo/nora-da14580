@@ -1,0 +1,9 @@
+.tag*
+cscope.*
+*~
+*.bak
+*.swp
+*.orig
+*.pyc
+dk_apps/keil_projects/ancc/ancc_fh/out/
+
